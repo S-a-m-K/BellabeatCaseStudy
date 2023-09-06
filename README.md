@@ -301,7 +301,7 @@ weight_info %>%
 
 # **Analyze**
 
-## **Analysis data set daily_activity**
+### **Analysis data set daily_activity**
 
 <div style="margin-bottom: 20px;">
 
@@ -381,7 +381,7 @@ summary(daily_activity)
 
 </div>
 
-## **Analysis data set sleep_day**
+### **Analysis data set sleep_day**
 
 <div style="margin-bottom: 20px;">
 
@@ -405,7 +405,7 @@ head(combined_data)
 
 </div>
 
-## **Analysis data set weight_info**
+### **Analysis data set weight_info**
 
 <div style="margin-bottom: 20px;">
 
@@ -581,7 +581,6 @@ id_movement <- daily_activity %>%
 
 head(id_movement)
 
-# create visualization
 ggplot(id_movement, aes(x = id, y = avg_steps, fill = id)) +
   geom_bar(stat = "identity", fill = "khaki2") +
   geom_hline(yintercept = 10000, color = "red", linetype = "dashed") +

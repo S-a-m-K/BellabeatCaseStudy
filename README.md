@@ -447,15 +447,7 @@ ggplot(daily_activity) +
                      breaks = c("very active", "active", "sedentary")) +
   labs(title = "Correlation between steps and calories burned")
 ```
-
-
-
-
-
-
-
-
-
+![image](https://github.com/S-a-m-K/Bellabeatcasestudy/assets/143487615/e69f66b4-49a0-4368-abb0-0fd14f2fd6db)
 
 Here we can see a positive correlation between total_steps and calories. The more active we are, the more calories we will burn.
 

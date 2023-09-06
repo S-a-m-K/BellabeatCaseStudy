@@ -1,5 +1,4 @@
-# Bellabeat Case Study
----
+<h1>Bellabeat Case Study</h1> 
 
 Author: Samuel Kleger 
 
@@ -27,7 +26,7 @@ Date: 2023-08-08
 
 </div>
 
-## **Introduction**
+# **Introduction**
 
 Bellabeat is a successful small business focused on manufacturing high-tech health and wellness products for women. They have the potential to become a major player in the global smart device market. Urska Srsen, Bellabeat's co-founder and chief creative officer, believes that analyzing fitness data from smart devices could help uncover new growth opportunities for the company.
 

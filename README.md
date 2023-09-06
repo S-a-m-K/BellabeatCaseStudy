@@ -19,7 +19,7 @@ Date: 2023-08-08
 - [Process](#Process)
 - [Analyze](#Analyze)
 - [Visualize](#Visualize)
-- [Recommendation](#Recommendation-based-on-analysis:)
+- [Recommendation](#Recommendation-based-on-analysis)
 
 ---
 

@@ -19,7 +19,7 @@ Date: 2023-08-08
 - [Process](#Process)
 - [Analyze](#Analyze)
 - [Visualize](#Visualize)
-- [Recommendation](#Recommendation-based-on-analysis)
+- [Recommendation](#Recommendation-based-on-analysis:)
 
 ---
 
@@ -780,7 +780,7 @@ When comparing the BMI to the active minutes, we cannot draw any clear conclusio
 
 </div>
 
-### **Recommendation based on analysis:**
+## **Recommendation based on analysis:**
 
 * App reminder how many steps you have taken or how many are still to do to reach your goal. 
   For example, based on weight or movement goals.
@@ -808,7 +808,7 @@ When comparing the BMI to the active minutes, we cannot draw any clear conclusio
 </div>
 
 
-### **General recommendations:**
+## **General recommendations:**
 
 * General push notification of the progress of daily and weekly goals. 
   For example, if he's still behind on his calorie count, suggest a walk of appropriate distance.

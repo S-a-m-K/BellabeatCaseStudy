@@ -1,7 +1,6 @@
 <h1>Bellabeat Case Study</h1> 
 
-**Author: Samuel Kleger** 
-
+**Author: Samuel Kleger**  
 **Date: 2023-08-08**
 
 ---

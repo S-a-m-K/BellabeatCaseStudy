@@ -9,7 +9,7 @@ Date: 2023-08-08
 
 ### Table of Content
 
-- [Test](#Introduction)
+- [Introduction](#Introduction)
   - [Buisness Task](#Buisness-Task)
   - [Stakeholder](#Stakeholder)
 - [Prepare](#Prepare)
@@ -780,7 +780,7 @@ When comparing the BMI to the active minutes, we cannot draw any clear conclusio
 
 </div>
 
-### **Recommendation based on analysis: **
+### **Recommendation based on analysis:**
 
 * App reminder how many steps you have taken or how many are still to do to reach your goal. 
   For example, based on weight or movement goals.

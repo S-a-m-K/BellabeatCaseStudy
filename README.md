@@ -1,8 +1,9 @@
-# Bellabeatcasestudy
+# Bellabeat Case Study
 ---
 
-author: "Samuel Kleger"
-date: "2023-08-08"
+Author: Samuel Kleger 
+
+Date: 2023-08-08
 
 ---
 
@@ -446,6 +447,15 @@ ggplot(daily_activity) +
                      breaks = c("very active", "active", "sedentary")) +
   labs(title = "Correlation between steps and calories burned")
 ```
+
+
+
+
+
+
+
+
+
 
 Here we can see a positive correlation between total_steps and calories. The more active we are, the more calories we will burn.
 

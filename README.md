@@ -7,18 +7,19 @@ Date: 2023-08-08
 
 ---
 
-## Table of Content
+### Table of Content
 
 - [Introduction](#Introduction)
-- [Prepare](#Prepare)
   - [Buisness Task](#Buisness-Task)
   - [Stakeholder](#Stakeholder)
-- [Data Description](#Data-Description)
-- [Credibility of the Data](#Credibility-of-the-Data)
-- [Confirmation of the ROCCC-Process](#Confirmation of the ROCCC-Process)
-- [](#)
-- [](#)
-- [](#)
+- [Prepare](#Prepare)
+  - [Data Description](#Data-Description)
+  - [Credibility of the Data](#Credibility-of-the-Data)
+  - [Confirmation of the ROCCC-Process](#Confirmation-of-the-ROCCC-Process)
+- [Process](#Process)
+- [Analyze](#Analyze)
+- [Visualize](#Visualize)
+- [Recommendation](#Recommendation-based-on-analysis:)
 
 ---
 
@@ -29,12 +30,6 @@ Date: 2023-08-08
 ## **Introduction**
 
 Bellabeat is a successful small business focused on manufacturing high-tech health and wellness products for women. They have the potential to become a major player in the global smart device market. Urska Srsen, Bellabeat's co-founder and chief creative officer, believes that analyzing fitness data from smart devices could help uncover new growth opportunities for the company.
-
-<div style="margin-bottom: 40px;">
-
-</div>
-
-# **Prepare**
 
 ### **Buisness Task**
 
@@ -53,8 +48,11 @@ Analyzing non-Bellabeat smart device usage data to gain insight into how smart d
 
 </div>
 
+# **Prepare**
 
-## **Data Description**
+
+
+### **Data Description**
 
 To prepare the data set, it was downloaded and stored locally. There are 18 individual data sources. We can parse the data by user Id and date time stamps. We’ll focus mostly on the daily level of activity and sleep, and explore the weight log data. The dataset dailyActivity includes the data from dailyCalories, dailyIntensities and dailySteps.
 
@@ -72,11 +70,11 @@ To prepare the data set, it was downloaded and stored locally. There are 18 indi
 
 </div>
 
-## **Credibility of the Data**
+### **Credibility of the Data**
 
 This dataset was created by respondents to a distributed survey on Amazon Mechanical Turk. Thirty-three eligible Fitbit users consented to the submission of personal tracker data, including up-to-the-minute physical activity, heart rate, and sleep monitoring. The variation between outputs reflects use of different types of Fitbit trackers and individual tracking behaviors/preferences.
 
-## **Confirmation of the ROCCC-Process**
+### **Confirmation of the ROCCC-Process**
 
 * **Reliable**: The dataset contains 33 user data from daily activity. It thus exceeds the minimum sample size requirement of 30. However, some users have not fully recorded their data and may not be comprehensive enough to allow for detailed analysis.
 
@@ -97,7 +95,7 @@ Apart from the ID number, no personal data are included in the collected data. S
 
 </div>
 
-## **Prepare**
+# **Process**
 
 <div style="margin-bottom: 20px;">
 
@@ -134,7 +132,7 @@ str(weight_info)
 
 </div>
 
-## **Cleaning data set daily_activity**
+### **Cleaning data set daily_activity**
 
 <div style="margin-bottom: 20px;">
 
@@ -203,7 +201,7 @@ daily_activity %>%
 
 </div>
 
-## **Cleaning data set sleep_day**
+### **Cleaning data set sleep_day**
 
 <div style="margin-bottom: 20px;">
 
@@ -265,7 +263,7 @@ sleep_day$date <- as.Date(sleep_day$date)
 
 </div>
 
-## **Cleaning data set weight_info**
+### **Cleaning data set weight_info**
 
 <div style="margin-bottom: 20px;">
 
@@ -301,6 +299,8 @@ weight_info %>%
 <div style="margin-bottom: 40px;">
 
 </div>
+
+# **Analyze**
 
 ## **Analysis data set daily_activity**
 
@@ -780,7 +780,7 @@ When comparing the BMI to the active minutes, we cannot draw any clear conclusio
 
 </div>
 
-### **Recommendation based on analysis::**
+### **Recommendation based on analysis: **
 
 * App reminder how many steps you have taken or how many are still to do to reach your goal. 
   For example, based on weight or movement goals.

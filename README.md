@@ -10,7 +10,7 @@ Date: 2023-08-08
 ## Inhaltsverzeichnis
 
 - [Introduction](#Introduction)
-  - [Buisness Task](#Buisness Task)
+  - [Buisness Task](#Buisness-Task)
   - [Stakeholder](#Stakeholder)
 - [Data Description](#Data-Description)
 - 

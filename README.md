@@ -81,7 +81,7 @@ This dataset was created from participants in a distributed survey on Amazon Mec
 
 * **Cited**: The data was collected anonymously by a third party.
 
-* **License**: [CC0: Public Domain](https://creativecommons.org/publicdomain/zero/1.0/)
+* **License**: [CC0: Public Domain](https://creativecommons.org/publicdomain/zero/1.0/):
 Apart from the ID number, no personal data are included in the collected data. So there are no privacy concerns to consider. The participants remain anonymous.
 
 * **Conclusion**: Overall, this is not a quality dataset that can be used for actual business recommendations.

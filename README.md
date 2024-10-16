@@ -3,10 +3,16 @@
 **Author: Samuel Kleger**  
 **Date: 2023-08-08**
 
+
+# **Introduction**
+
+Bellabeat is a successful small business focused on manufacturing high-tech health and wellness products for women. They have the potential to become a major player in the global smart device market. Urska Srsen, Bellabeat's co-founder and chief creative officer, believes that analyzing fitness data from smart devices could help uncover new growth opportunities for the company.
+
 ---
 
 #### Table of Content
 - [Introduction](#Introduction)
+- [Ask](#Ask)
   - [Buisness Task](#Buisness-Task)
   - [Stakeholder](#Stakeholder)
 - [Prepare](#Prepare)
@@ -20,13 +26,11 @@
 
 ---
 
+# **Ask**
+
 <div style="margin-bottom: 40px;">
 
 </div>
-
-# **Introduction**
-
-Bellabeat is a successful small business focused on manufacturing high-tech health and wellness products for women. They have the potential to become a major player in the global smart device market. Urska Srsen, Bellabeat's co-founder and chief creative officer, believes that analyzing fitness data from smart devices could help uncover new growth opportunities for the company.
 
 ### **Buisness Task**
 

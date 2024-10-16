@@ -51,7 +51,7 @@ Analyzing non-Bellabeat smart device usage data to gain insight into how smart d
 
 ### **Data Description**
 
-To prepare the data set, it was downloaded and stored locally. There are 18 individual data sources. We can parse the data by user Id and date time stamps. We’ll focus mostly on the daily level of activity and sleep, and explore the weight log data. The dataset dailyActivity includes the data from dailyCalories, dailyIntensities and dailySteps.
+To prepare the dataset, it was downloaded and stored locally. There are 18 individual data sources. We can analyze the data by user ID and date/time stamp. I will mainly focus on daily activity and sleep levels and examine the weight log data. The dailyActivity dataset contains the data from dailyCalories, dailyIntensities and dailySteps.
 
 **Source**: 33 participants FitBit Fitness Tracker data from Mobius: https://www.kaggle.com/arashnic/fitbit
 

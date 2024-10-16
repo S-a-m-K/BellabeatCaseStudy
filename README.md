@@ -55,7 +55,7 @@ Analyzing non-Bellabeat smart device usage data to gain insight into how smart d
 
 ### **Data Description**
 
-The data comes from Bellabeats, a healthcare company that focuses on health tracking systems. These log various data such as: User id, date and time, activity, calories burned and much more. The datasets are suitable for the purpose of this case study and allow answering the company-related questions.
+FitBit Fitness Tracker Data (CC0: Public Domain, a dataset provided by Mobius): This Kaggle dataset includes personal fitness trackers from thirty Fitbit users. These users have agreed to share their personal tracker data, including minute-by-minute physical activity, heart rate, and sleep data. The dataset includes data on daily activity, steps, and heart rate. This data can be used to study users' habits.
 
 **Source**: 33 participants FitBit Fitness Tracker data from [kaggle](https://www.kaggle.com/datasets/arashnic/fitbit).
 

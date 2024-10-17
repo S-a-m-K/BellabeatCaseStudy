@@ -779,26 +779,21 @@ When comparing BMI to active minutes, we cannot draw any definitive conclusions.
 
 ## **Recommendation based on analysis**
 
-* App reminder how many steps you have taken or how many are still to do to reach your goal. 
-  For example, based on weight or movement goals.
+**Step Reminders:** Implement app reminders to notify users of their current step count and how many more steps they need to reach their goals, based on weight or exercise targets.
 
-* Reminders with ideas for Sunday activities to increase steps or calories on sedentary days.
+**Activity Suggestions:** Provide reminders with ideas for Sunday activities to encourage users to increase calorie expenditure.
 
-* Make recommendations via app to reduce sedentary work. 
-  For example, going to work by bike or walking instead of taking the car or bus.
+**Sedentary Activity Reduction:** Offer general recommendations through the app to reduce sedentary behavior, such as biking or walking to work instead of driving or taking public transport, and suggesting standing or walking during work breaks.
 
-* Sedentary users at work spend their breaks standing or walking.
+**Encouragement for Better Sleep:** Motivate users who experience poor sleep quality to increase their physical activity to enhance their sleep.
 
-* Encourage users who sleep less well to move more to improve their sleep quality.
+**Comfortable Wear for Tracking:** Design the “Time” watch to be comfortable to wear, encouraging users to track their sleep patterns.
 
-* Good wearing comfort of the "Time" wristwatch to promote sleep tracking.
+**Daily Weight Tracking Reminders:** Send reminders to users to weigh themselves daily, suggesting they establish a routine to step on the scale at the same time each morning.
 
-* Reminder to track weight daily. For example, build a routine to get on the scale at the same time every morning.
+**Smart Scale Development:** Create a scale that directly transmits weight and body fat percentage to the app, providing additional data for further analysis.
 
-* Maybe develop a scale that sends weight and body fat percentage directly to the app. 
-  Thus, one might have more data for a subsequent analysis.
-
-* Together with a challenge, which takes place among friends, who loses how much weight in what time.
+**Friend Challenges:** Offer challenges that users can engage in with friends, where they can earn rewards based on metrics such as higher activity levels or greater weight loss over a weekly or monthly basis.
 
 <div style="margin-bottom: 40px;">
 

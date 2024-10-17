@@ -200,7 +200,7 @@ daily_activity %>%
 
 </div>
 
-### **Cleaning data set sleep_day**
+### **Cleansing data set sleep_day**
 
 <div style="margin-bottom: 20px;">
 

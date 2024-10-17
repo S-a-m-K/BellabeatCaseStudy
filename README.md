@@ -6,7 +6,7 @@
 
 # **Introduction**
 
-Bellabeat is a successful small business focused on manufacturing high-tech health and wellness products for women. They have the potential to become a major player in the global smart device market. Urska Srsen, Bellabeat's co-founder and chief creative officer, believes that analyzing fitness data from smart devices could help uncover new growth opportunities for the company.
+Bellabeat is a successful small business specializing in the production of cutting-edge health and wellness products for women. With the potential to become a major player in the global smart device market, the company is on the cusp of an exciting growth phase. Urska Srsen, Bellabeat's co-founder and Chief Creative Officer, believes that analyzing fitness data from smart devices could provide valuable insights for uncovering new growth opportunities.
 
 ---
 
@@ -34,7 +34,7 @@ Bellabeat is a successful small business focused on manufacturing high-tech heal
 
 ### **Buisness Task**
 
-Analyzing non-Bellabeat smart device usage data to gain insight into how smart devices are being used. Based on these findings, a general recommendation is desired as to how these trends could influence Bellabeat's marketing strategy.
+Analyzing data from non-Bellabeat smart devices to gain insights into how these devices are being used. Based on the findings, a general recommendation is sought on how these trends could shape Bellabeat's marketing strategy.
 
 ### **Stakeholder** 
 
@@ -131,7 +131,7 @@ str(weight_info)
 
 </div>
 
-### **Cleaning data set daily_activity**
+### **Cleansing data set daily_activity**
 
 <div style="margin-bottom: 20px;">
 
@@ -149,7 +149,7 @@ daily_activity$ActivityDate <- as.Date(daily_activity$ActivityDate, format = "%m
 
 </div>
 
-Since we only see null values at first glance, I want to check if the columns are identical
+Since the columns appear to contain only null values at first glance, I want to verify if they are actually identical.
 ```{r}
 # check if TotalDistance and TrackerDistance have the same values
 daily_activity$distance_diff <- daily_activity$TotalDistance - daily_activity$TrackerDistance
@@ -262,7 +262,7 @@ sleep_day$date <- as.Date(sleep_day$date)
 
 </div>
 
-### **Cleaning data set weight_info**
+### **Cleansing data set weight_info**
 
 <div style="margin-bottom: 20px;">
 

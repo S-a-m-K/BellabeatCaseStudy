@@ -318,7 +318,7 @@ daily_activity$n_of_weekday <- match(daily_activity$day_of_week, wochentage)
 
 ```{r}
 # change the order of columns and delete unused columns
-# We don't know what unit of measure the distances are based on. I omit these columns for this analysis
+# Since the unit of measurement for the distances is unknown, I will exclude these columns from the analysis
 daily_activity <- daily_activity %>%
   select(id, date, day_of_week, n_of_weekday, total_steps, total_distance,
          # tracker_distance, logged_distance, very_active_distance,

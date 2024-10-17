@@ -777,7 +777,7 @@ When comparing BMI to active minutes, we cannot draw any definitive conclusions.
 
 </div>
 
-## **Recommendation based on analysis**
+## **Recommendations based on analysis**
 
 * **Step Reminders:** Implement app reminders to notify users of their current step count and how many more steps they need to reach their goals, based on weight or exercise targets.
 

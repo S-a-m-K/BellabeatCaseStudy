@@ -779,21 +779,21 @@ When comparing BMI to active minutes, we cannot draw any definitive conclusions.
 
 ## **Recommendation based on analysis**
 
-**Step Reminders:** Implement app reminders to notify users of their current step count and how many more steps they need to reach their goals, based on weight or exercise targets.
+* **Step Reminders:** Implement app reminders to notify users of their current step count and how many more steps they need to reach their goals, based on weight or exercise targets.
 
-**Activity Suggestions:** Provide reminders with ideas for Sunday activities to encourage users to increase calorie expenditure.
+* **Activity Suggestions:** Provide reminders with ideas for Sunday activities to encourage users to increase calorie expenditure.
 
-**Sedentary Activity Reduction:** Offer general recommendations through the app to reduce sedentary behavior, such as biking or walking to work instead of driving or taking public transport, and suggesting standing or walking during work breaks.
+* **Sedentary Activity Reduction:** Offer general recommendations through the app to reduce sedentary behavior, such as biking or walking to work instead of driving or taking public transport, and suggesting standing or walking during work breaks.
 
-**Encouragement for Better Sleep:** Motivate users who experience poor sleep quality to increase their physical activity to enhance their sleep.
+* **Encouragement for Better Sleep:** Motivate users who experience poor sleep quality to increase their physical activity to enhance their sleep.
 
-**Comfortable Wear for Tracking:** Design the “Time” watch to be comfortable to wear, encouraging users to track their sleep patterns.
+* **Comfortable Wear for Tracking:** Design the “Time” watch to be comfortable to wear, encouraging users to track their sleep patterns.
 
-**Daily Weight Tracking Reminders:** Send reminders to users to weigh themselves daily, suggesting they establish a routine to step on the scale at the same time each morning.
+* **Daily Weight Tracking Reminders:** Send reminders to users to weigh themselves daily, suggesting they establish a routine to step on the scale at the same time each morning.
 
-**Smart Scale Development:** Create a scale that directly transmits weight and body fat percentage to the app, providing additional data for further analysis.
+* **Smart Scale Development:** Create a scale that directly transmits weight and body fat percentage to the app, providing additional data for further analysis.
 
-**Friend Challenges:** Offer challenges that users can engage in with friends, where they can earn rewards based on metrics such as higher activity levels or greater weight loss over a weekly or monthly basis.
+* **Friend Challenges:** Offer challenges that users can engage in with friends, where they can earn rewards based on metrics such as higher activity levels or greater weight loss over a weekly or monthly basis.
 
 <div style="margin-bottom: 40px;">
 

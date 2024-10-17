@@ -1,3 +1,5 @@
+![Banner](https://github.com/S-a-m-K/bellabeat_case_study/blob/main/Bellabeat.png)
+
 <h1>Bellabeat Case Study</h1> 
 
 **Author: Samuel Kleger**  

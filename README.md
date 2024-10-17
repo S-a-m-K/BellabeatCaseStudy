@@ -802,22 +802,15 @@ When comparing BMI to active minutes, we cannot draw any definitive conclusions.
 
 ## **General recommendations**
 
-* General push notification of the progress of daily and weekly goals. 
-  For example, if he's still behind on his calorie count, suggest a walk of appropriate distance.
-  
-* Notification of users who have been inactive for a longer period of time.
+* **Progress Notifications:** Send push notifications to update users on their progress toward daily and weekly goals. If a user is behind on their calorie goal, suggest specific activities, such as a walk of an appropriate distance, to help them catch up.
 
-* overall health tracking through social interactions, allowing users to share their activity and participate in daily/weekly challenges together.
+* **Inactivity Alerts:** Notify users who have been inactive for an extended period, encouraging them to get moving again.
 
-* Allow certain features only with a subscription-based membership. Send push notifications to show subscription benefits.
+* **Health Tracking through Social Interaction:** Enable general health tracking via social features that allow users to share their activity and participate in daily or weekly challenges together.
 
-* Provide incentives for constant tracking. For example in connection with a competition with a reward system. This could be in the form of an electronic identifier like a trophy once the daily or weekly goal is met. Such measures could help such applications become more legitimate and thus increase the likelihood that users will achieve their goals. At the same time, data would be created that could possibly be used for another analysis.
+* **Subscription-Based Features:** Offer certain features exclusively with a subscription-based membership, and send push notifications to highlight the benefits of subscribing.
 
-<div style="margin-bottom: 40px;">
-
-</div>
-
-### **Thank you**
+* **Incentives for Continuous Tracking:** Provide incentives for consistent tracking, such as rewards in a competition-based system. For example, users could earn electronic badges or trophies when they reach daily or weekly goals. Such measures could help legitimize the app and increase the likelihood of users achieving their goals while also generating more data for further analysis.
 
 <div style="margin-bottom: 40px;">
 

@@ -470,7 +470,7 @@ ggplot(daily_activity) +
 
 <img src="https://github.com/S-a-m-K/Bellabeatcasestudy/assets/143487615/e69f66b4-49a0-4368-abb0-0fd14f2fd6db" alt="Beschreibung des Bildes" width="700"/>
 
-Here we can see a positive correlation between total_steps and calories. The more active we are, the more calories we will burn.
+A positive correlation between total steps and calories is evident: the more active one is, the more calories are burned.
 
 <div style="margin-bottom: 40px;">
 
@@ -512,7 +512,7 @@ combined_plot <- grid.arrange(very_active_plot, fairly_active_plot, lightly_acti
 ```
 <img src="https://github.com/S-a-m-K/Bellabeatcasestudy/assets/143487615/bcfb7cbc-570c-4f98-a58d-ab6661cca147" alt="Beschreibung des Bildes" style="width:700px;"/>
 
-If we look at the patterns of each chart, it is clear to see that activity level correlates with calorie expenditure.
+The charts for the individual activity levels clearly show that the activity level correlates with calorie consumption.
 
 <div style="margin-bottom: 40px;">
 
@@ -560,7 +560,7 @@ ggplot(average_steps, aes(x = day_of_week, y = average_steps, fill = day_of_week
 
 <img src="https://github.com/S-a-m-K/Bellabeatcasestudy/assets/143487615/edee96df-d459-4c42-8752-b98ac83854c3" alt="Beschreibung des Bildes" width="700"/>
 
-Illustrating the average steps per weekday, we note that Monday, Tuesday and Saturday are the most active days. Sunday is comparatively low. We also see that the 10,000 steps per day recommended by the WHO are not reached on average.
+Illustrating the average steps taken per weekday, we observe that Monday, Tuesday, and Saturday are the most active days, while Sunday shows comparatively lower activity. Additionally, we note that the average daily steps fall short of the 10,000-step recommendation set by the WHO.
 
 <div style="margin-bottom: 40px;">
 
@@ -594,8 +594,7 @@ ggplot(id_movement, aes(x = id, y = avg_steps, fill = id)) +
 
 <img src="https://github.com/S-a-m-K/Bellabeatcasestudy/assets/143487615/f5fddd8e-8b60-459f-bb3a-6bd5167cd72e" alt="Beschreibung des Bildes" width="700"/>
 
-Even when illustrating the average steps taken by users per day, the recommended value is not reached for most of them. In fact, 79% users average below this recommended level.
-
+Even when examining the average daily steps taken by users, most do not meet the recommended value. In fact, 79% of users average below this guideline.
 
 <div style="margin-bottom: 40px;">
 
@@ -603,7 +602,7 @@ Even when illustrating the average steps taken by users per day, the recommended
 
 ### **Percentage distribution of activity minutes**
 
-The WHO recommends 150 minutes of moderate aerobic physical activity per week, or 75 minutes of aerobic physical activity. Or a combination of both spread over several days. Unfortunately, we cannot use the data to infer exactly which activity is moderately aerobic and which is aerobic. Assuming that moderate and heavy activity corresponds to fairly active and very active activity, we can see what proportion of users meet these criteria.
+The WHO recommends 150 minutes of moderate aerobic physical activity per week or 75 minutes of vigorous aerobic activity, or a combination of both spread over several days. Unfortunately, the data does not allow us to determine which activities are classified as moderate or vigorous. However, by assuming that moderate and vigorous activity corresponds to fairly active and very active levels, we can analyze the proportion of users who meet these criteria.
 
 ```{r}
 # create visualization
@@ -653,7 +652,7 @@ ggplot(id_movement, aes(x = id, y = sum_active_min, fill = id)) +
 
 <img src="https://github.com/S-a-m-K/Bellabeatcasestudy/assets/143487615/2825e145-4f45-4193-acb1-4a475fa01a75" alt="Beischreibung des Bildes" width="700"/>
 
-Even when it comes to the percentage of minutes worked, most of them do not reach the specified target.
+Even regarding the percentage of minutes exercised, most users do not meet the specified target.
 
 <div style="margin-bottom: 40px;">
 
@@ -692,7 +691,7 @@ ggplot(data, aes(x = factor(category, levels = category_order), y = amount, fill
 
 <img src="https://github.com/S-a-m-K/Bellabeatcasestudy/assets/143487615/dbea5454-a28b-4212-a8da-6c71ae6870a8" alt="Beischreibung des Bildes" width="700"/>
 
-If we look at the percentage breakdown of the various activities, it becomes clear that we spend most of our waking hours in a seated position.
+When examining the percentage breakdown of various activities, it becomes evident that we spend the majority of our waking hours in a seated position.
 
 <div style="margin-bottom: 40px;">
 
@@ -710,7 +709,7 @@ ggplot(combined_data, aes(x = total_steps, y = calories, size = fall_asleep, col
 
 <img src="https://github.com/S-a-m-K/Bellabeatcasestudy/assets/143487615/9172a230-6710-4940-b2e1-7ef63e687d42" alt="Beischreibung des Bildes" width="700"/>
 
-Unfortunately, the data are not sufficient for a clear determination. Still, I wanted to use the data to show how exercise and sleep quality have something in common. Of course, there are many other factors that influence sleep quality. Nonetheless, a pattern can be discerned. namely that those who have more trouble falling asleep are the ones who burn the fewest calories, but are not necessarily the ones who exercise the least.
+Unfortunately, the data are insufficient for a definitive conclusion. Nevertheless, I wanted to illustrate how exercise and sleep quality are related. While many other factors influence sleep quality, a discernible pattern emerges: those who struggle more with falling asleep tend to burn the fewest calories, although they are not necessarily the ones who exercise the least.
 
 <div style="margin-bottom: 40px;">
 
@@ -736,7 +735,7 @@ ggplot(filtered_data, aes(x = date, y = weight_kg, color = date)) +
 
 <img src="https://github.com/S-a-m-K/Bellabeatcasestudy/assets/143487615/7fd9e78a-cf48-4466-8b11-50b1ff16ed2b" alt="Beischreibung des Bildes" width="700"/>
 
-The two users who had tracked their weight data for a month were not very successful. Here, too, we need significantly more data in order to make clear decisions.
+The two users who tracked their weight data for a month did not achieve significant success. Once again, we require substantially more data to make informed conclusions.
 
 <div style="margin-bottom: 40px;">
 
@@ -754,7 +753,7 @@ ggplot(bmi_cor, aes(x = avg_steps, y = avg_bmi)) +
 
 <img src="https://github.com/S-a-m-K/Bellabeatcasestudy/assets/143487615/72a4f9d8-947a-4cd3-a837-ef4f6d27b299" alt="Beischreibung des Bildes" width="700"/>
 
-Despite the lack of data, a clear pattern can be seen here. Those who exercise more also have a lower BMI.
+Despite the limited data, a clear pattern emerges: those who exercise more tend to have a lower BMI.
 
 <div style="margin-bottom: 40px;">
 
@@ -772,7 +771,7 @@ ggplot(bmi_cor, aes(x = avg_very_active, y = avg_bmi)) +
 
 <img src="https://github.com/S-a-m-K/Bellabeatcasestudy/assets/143487615/741c9100-26b8-4fec-bec7-e527ded7f5bd" alt="Beischreibung des Bildes" width="700"/>
 
-When comparing the BMI to the active minutes, we cannot draw any clear conclusions. Those who have a lower BMI are not necessarily those who spend their time very actively. Only one user with a high BMI does not seem to be particularly active.
+When comparing BMI to active minutes, we cannot draw any definitive conclusions. Individuals with a lower BMI are not necessarily those who engage in high levels of activity. Only one user with a high BMI appears to be particularly inactive.
 
 <div style="margin-bottom: 60px;">
 

@@ -1,6 +1,9 @@
 ![Banner](https://github.com/S-a-m-K/bellabeat_case_study/blob/main/Bellabeat.png)
 
-<h1>Google Data Analytics Bellabeat Case Study</h1> 
+<h1>Google Data Analytics: Bellabeat Case Study</h1> 
+
+Course: [Google Data Analytics Capstone: Complete a Case Study](https://www.coursera.org/learn/google-data-analytics-capstone)
+
 
 **Author: Samuel Kleger**  
 **Date: 2023-08-08**

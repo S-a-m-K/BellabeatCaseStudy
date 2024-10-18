@@ -1,6 +1,6 @@
 ![Banner](https://github.com/S-a-m-K/bellabeat_case_study/blob/main/Bellabeat.png)
 
-<h1>Bellabeat Case Study</h1> 
+<h1>Google Data Analytics Bellabeat Case Study</h1> 
 
 **Author: Samuel Kleger**  
 **Date: 2023-08-08**

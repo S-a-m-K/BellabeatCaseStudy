@@ -569,6 +569,8 @@ ggplot(average_steps, aes(x = day_of_week, y = average_steps, fill = day_of_week
 
 Illustrating the average steps taken per weekday, we observe that Monday, Tuesday, and Saturday are the most active days, while Sunday shows comparatively lower activity. Additionally, we note that the average daily steps fall short of the 10,000-step recommendation set by the WHO.
 
+<br>
+
 <div style="margin-bottom: 40px;">
 
 </div>

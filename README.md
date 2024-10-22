@@ -605,6 +605,8 @@ ggplot(id_movement, aes(x = id, y = avg_steps, fill = id)) +
 
 Even when examining the average daily steps taken by users, most do not meet the recommended value. In fact, 79% of users average below this guideline.
 
+<br>
+
 <div style="margin-bottom: 40px;">
 
 </div>
@@ -663,6 +665,8 @@ ggplot(id_movement, aes(x = id, y = sum_active_min, fill = id)) +
 
 Even regarding the percentage of minutes exercised, most users do not meet the specified target.
 
+<br>
+
 <div style="margin-bottom: 40px;">
 
 </div>
@@ -702,6 +706,8 @@ ggplot(data, aes(x = factor(category, levels = category_order), y = amount, fill
 
 When examining the percentage breakdown of various activities, it becomes evident that we spend the majority of our waking hours in a seated position.
 
+<br>
+
 <div style="margin-bottom: 40px;">
 
 </div>
@@ -719,6 +725,8 @@ ggplot(combined_data, aes(x = total_steps, y = calories, size = fall_asleep, col
 <img src="https://github.com/S-a-m-K/Bellabeatcasestudy/assets/143487615/9172a230-6710-4940-b2e1-7ef63e687d42" alt="Beischreibung des Bildes" width="700"/>
 
 Unfortunately, the data are insufficient for a definitive conclusion. Nevertheless, I wanted to illustrate how exercise and sleep quality are related. While many other factors influence sleep quality, a discernible pattern emerges: those who struggle more with falling asleep tend to burn the fewest calories, although they are not necessarily the ones who exercise the least.
+
+<br>
 
 <div style="margin-bottom: 40px;">
 
@@ -746,6 +754,8 @@ ggplot(filtered_data, aes(x = date, y = weight_kg, color = date)) +
 
 The two users who tracked their weight data for a month did not achieve significant success. Once again, we require substantially more data to make informed conclusions.
 
+<br>
+
 <div style="margin-bottom: 40px;">
 
 </div>
@@ -764,6 +774,8 @@ ggplot(bmi_cor, aes(x = avg_steps, y = avg_bmi)) +
 
 Despite the limited data, a clear pattern emerges: those who exercise more tend to have a lower BMI.
 
+<br>
+
 <div style="margin-bottom: 40px;">
 
 </div>
@@ -781,6 +793,8 @@ ggplot(bmi_cor, aes(x = avg_very_active, y = avg_bmi)) +
 <img src="https://github.com/S-a-m-K/Bellabeatcasestudy/assets/143487615/741c9100-26b8-4fec-bec7-e527ded7f5bd" alt="Beischreibung des Bildes" width="700"/>
 
 When comparing BMI to active minutes, we cannot draw any definitive conclusions. Individuals with a lower BMI are not necessarily those who engage in high levels of activity. Only one user with a high BMI appears to be particularly inactive.
+
+<br>
 
 <div style="margin-bottom: 60px;">
 

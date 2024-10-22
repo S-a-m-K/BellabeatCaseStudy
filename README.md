@@ -477,6 +477,8 @@ ggplot(daily_activity) +
 
 A positive correlation between total steps and calories is evident: the more active one is, the more calories are burned.
 
+<br>
+
 <div style="margin-bottom: 40px;">
 
 </div>
@@ -518,6 +520,8 @@ combined_plot <- grid.arrange(very_active_plot, fairly_active_plot, lightly_acti
 <img src="https://github.com/S-a-m-K/Bellabeatcasestudy/assets/143487615/bcfb7cbc-570c-4f98-a58d-ab6661cca147" alt="Beschreibung des Bildes" style="width:700px;"/>
 
 The charts for the individual activity levels clearly show that the activity level correlates with calorie consumption.
+
+<br>
 
 <div style="margin-bottom: 40px;">
 
@@ -817,6 +821,8 @@ When comparing BMI to active minutes, we cannot draw any definitive conclusions.
 * **Smart Scale Development:** Create a scale that directly transmits weight and body fat percentage to the app, providing additional data for further analysis.
 
 * **Friend Challenges:** Offer challenges that users can engage in with friends, where they can earn rewards based on metrics such as higher activity levels or greater weight loss over a weekly or monthly basis.
+
+<br>
 
 <div style="margin-bottom: 40px;">
 

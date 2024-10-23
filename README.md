@@ -8,6 +8,7 @@ Course: [Google Data Analytics Capstone: Complete a Case Study](https://www.cour
 **Author: Samuel Kleger**  
 **Date: 2023-08-08**
 
+<br>
 
 # **Introduction**
 
@@ -33,13 +34,11 @@ Bellabeat is a successful small business specializing in the production of cutti
 
 # **Ask**
 
-<div style="margin-bottom: 40px;">
-
-</div>
-
 ### **Buisness Task**
 
 Analyzing data from non-Bellabeat smart devices to gain insights into how these devices are being used. Based on the findings, a general recommendation is sought on how these trends could shape Bellabeat's marketing strategy.
+
+<br>
 
 ### **Stakeholder** 
 
@@ -50,12 +49,9 @@ Analyzing data from non-Bellabeat smart devices to gain insights into how these 
 
 **Marketing-Analytics-Team**: A team of data analytics professionals who collect, analyze and report on data to support Bellabeat's marketing strategy
 
-<div style="margin-bottom: 40px;">
-
-</div>
+<br>
 
 # **Prepare**
-
 
 
 ### **Data Description**
@@ -70,13 +66,13 @@ FitBit Fitness Tracker Data (CC0: Public Domain, a dataset provided by Mobius): 
 
 **Duration**: 03.12.2016-05.12.2016
 
-<div style="margin-bottom: 40px;">
-
-</div>
+<br>
 
 ### **Credibility of the Data**
 
 This dataset was created from participants in a distributed survey on Amazon Mechanical Turk. Thirty-three eligible Fitbit users consented to submit personal tracker data. Variations in results reflect use of different types of Fitbit trackers and individual tracking behaviors/preferences.
+
+<br>
 
 ### **Confirmation of the ROCCC-Process**
 
@@ -95,15 +91,9 @@ Apart from the ID number, no personal data are included in the collected data. S
 
 * **Conclusion**: Overall, this is not a quality dataset that can be used for actual business recommendations.
 
-<div style="margin-bottom: 40px;">
-
-</div>
+<br>
 
 # **Process**
-
-<div style="margin-bottom: 20px;">
-
-</div>
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -132,15 +122,9 @@ str(sleep_day)
 str(weight_info)
 ```
 
-<div style="margin-bottom: 40px;">
-
-</div>
+<br>
 
 ### **Cleansing data set daily_activity**
-
-<div style="margin-bottom: 20px;">
-
-</div>
 
 ```{r}
 # change data type as character
@@ -150,9 +134,7 @@ daily_activity$Id <- as.character(daily_activity$Id)
 daily_activity$ActivityDate <- as.Date(daily_activity$ActivityDate, format = "%m/%d/%Y") 
 ```
 
-<div style="margin-bottom: 40px;">
-
-</div>
+<br>
 
 Since the columns appear to contain only null values at first glance, I want to verify if they are actually identical.
 ```{r}
@@ -201,15 +183,9 @@ daily_activity %>%
   sum()
 ```
 
-<div style="margin-bottom: 40px;">
-
-</div>
+<br>
 
 ### **Cleansing data set sleep_day**
-
-<div style="margin-bottom: 20px;">
-
-</div>
 
 ```{r}
 # change data type as character
@@ -263,15 +239,9 @@ sleep_day$date <- as.POSIXct(sleep_day$date, format = "%Y-%m-%d %H:%M:%S")
 sleep_day$date <- as.Date(sleep_day$date)
 ```
 
-<div style="margin-bottom: 40px;">
-
-</div>
+<br>
 
 ### **Cleansing data set weight_info**
-
-<div style="margin-bottom: 20px;">
-
-</div>
 
 ```{r}
 # change data type as character
@@ -299,18 +269,11 @@ weight_info %>%
   duplicated() %>% 
   sum()
 ```
-
-<div style="margin-bottom: 40px;">
-
-</div>
+<br>
 
 # **Analyze**
 
 ### **Analysis data set daily_activity**
-
-<div style="margin-bottom: 20px;">
-
-</div>
 
 ```{r}
 # add a column with days of the week
@@ -382,15 +345,9 @@ head(id_count_entries)
 summary(daily_activity)
 ```
 
-<div style="margin-bottom: 40px;">
-
-</div>
+<br>
 
 ### **Analysis data set sleep_day**
-
-<div style="margin-bottom: 20px;">
-
-</div>
 
 ```{r}
 # Create a new frame with columns from data set daily_activity and sleep_day
@@ -406,15 +363,11 @@ combined_data <- combined_data %>%
 head(combined_data)
 ```
 
-<div style="margin-bottom: 40px;">
-
-</div>
+<br>
 
 ### **Analysis data set weight_info**
 
-<div style="margin-bottom: 20px;">
 
-</div>
 
 ```{r}
 # remove columns not needed for this analysis
@@ -453,15 +406,9 @@ bmi_cor <- weight_info %>%
 head(bmi_cor)
 ```
 
-<div style="margin-bottom: 40px;">
-
-</div>
+<br>
 
 # **Visualize**
-
-<div style="margin-bottom: 20px;">
-
-</div>
 
 ### **Correlation between steps and calories burned**
 ```{r}
@@ -478,10 +425,6 @@ ggplot(daily_activity) +
 A positive correlation between total steps and calories is evident: the more active one is, the more calories are burned.
 
 <br>
-
-<div style="margin-bottom: 40px;">
-
-</div>
 
 ### **Correlation between activity level in minutes and calories**
 ```{r}
@@ -522,10 +465,6 @@ combined_plot <- grid.arrange(very_active_plot, fairly_active_plot, lightly_acti
 The charts for the individual activity levels clearly show that the activity level correlates with calorie consumption.
 
 <br>
-
-<div style="margin-bottom: 40px;">
-
-</div>
 
 ### **Average steps per day**
 ```{r}
@@ -575,10 +514,6 @@ Illustrating the average steps taken per weekday, we observe that Monday, Tuesda
 
 <br>
 
-<div style="margin-bottom: 40px;">
-
-</div>
-
 ### **Average daily steps per id**
 ```{r}
 # create a frame with average steps and average active minutes per id
@@ -610,10 +545,6 @@ ggplot(id_movement, aes(x = id, y = avg_steps, fill = id)) +
 Even when examining the average daily steps taken by users, most do not meet the recommended value. In fact, 79% of users average below this guideline.
 
 <br>
-
-<div style="margin-bottom: 40px;">
-
-</div>
 
 ### **Percentage distribution of activity minutes**
 
@@ -671,10 +602,6 @@ Even regarding the percentage of minutes exercised, most users do not meet the s
 
 <br>
 
-<div style="margin-bottom: 40px;">
-
-</div>
-
 ### **Percentage distribution of activity minutes**
 ```{r}
 # create a frame with the sum of the active minutes columns
@@ -712,10 +639,6 @@ When examining the percentage breakdown of various activities, it becomes eviden
 
 <br>
 
-<div style="margin-bottom: 40px;">
-
-</div>
-
 ### **Correlation between steps, calories and sleep quality**
 ```{r}
 ggplot(combined_data, aes(x = total_steps, y = calories, size = fall_asleep, color = fall_asleep)) +
@@ -731,10 +654,6 @@ ggplot(combined_data, aes(x = total_steps, y = calories, size = fall_asleep, col
 Unfortunately, the data are insufficient for a definitive conclusion. Nevertheless, I wanted to illustrate how exercise and sleep quality are related. While many other factors influence sleep quality, a discernible pattern emerges: those who struggle more with falling asleep tend to burn the fewest calories, although they are not necessarily the ones who exercise the least.
 
 <br>
-
-<div style="margin-bottom: 40px;">
-
-</div>
 
 ### **Weight loss during this period**
 ```{r}
@@ -760,10 +679,6 @@ The two users who tracked their weight data for a month did not achieve signific
 
 <br>
 
-<div style="margin-bottom: 40px;">
-
-</div>
-
 ### **Correlation between steps and BMI**
 ```{r}
 ggplot(bmi_cor, aes(x = avg_steps, y = avg_bmi)) +
@@ -780,10 +695,6 @@ Despite the limited data, a clear pattern emerges: those who exercise more tend 
 
 <br>
 
-<div style="margin-bottom: 40px;">
-
-</div>
-
 ### **Correlation between active minutes and BMI**
 ```{r}
 ggplot(bmi_cor, aes(x = avg_very_active, y = avg_bmi)) +
@@ -799,10 +710,6 @@ ggplot(bmi_cor, aes(x = avg_very_active, y = avg_bmi)) +
 When comparing BMI to active minutes, we cannot draw any definitive conclusions. Individuals with a lower BMI are not necessarily those who engage in high levels of activity. Only one user with a high BMI appears to be particularly inactive.
 
 <br>
-
-<div style="margin-bottom: 60px;">
-
-</div>
 
 ## **Recommendations based on analysis**
 
@@ -824,10 +731,6 @@ When comparing BMI to active minutes, we cannot draw any definitive conclusions.
 
 <br>
 
-<div style="margin-bottom: 40px;">
-
-</div>
-
 
 ## **General recommendations**
 
@@ -840,7 +743,3 @@ When comparing BMI to active minutes, we cannot draw any definitive conclusions.
 * **Subscription-Based Features:** Offer certain features exclusively with a subscription-based membership, and send push notifications to highlight the benefits of subscribing.
 
 * **Incentives for Continuous Tracking:** Provide incentives for consistent tracking, such as rewards in a competition-based system. For example, users could earn electronic badges or trophies when they reach daily or weekly goals. Such measures could help legitimize the app and increase the likelihood of users achieving their goals while also generating more data for further analysis.
-
-<div style="margin-bottom: 40px;">
-
-</div>
